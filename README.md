@@ -62,24 +62,22 @@ The model is trained on the **LC25000 Dataset**, which contains labeled images o
 
 ---
 
-## Input Example
-Provide a sample input histopathology image.  
-
-```markdown
-![Input Image]([https://github.com/kabikarthi23/Projects_/blob/main/Lung%20Cancer%20Detection/inputs/01.jpeg])
-```
 ## Output Example
 
 The CNN predicts whether the tissue is cancerous or normal. Grad-CAM highlights important regions in the image.
 
-![Output Image](outputs/sample_output.jpg)
+![Output 1](Lung%20Cancer%20Detection/Outputs/new%20123.png)
+
+![Output 2](Lung%20Cancer%20Detection/Outputs/01.png)<br>
+
+![Output 3](Lung%20Cancer%20Detection/Outputs/08.png)<br>
+
+
 **Prediction Example:**
 
 **Input:** Lung tissue image
 
-**Model Prediction:** Cancerous
-
-**Confidence:** 96%
+**Model Prediction:** 0(Cancerous(ACA), 1(Cancerous(SCC)), 2(Non-Cancerous)
 
 ## How to Run
 
