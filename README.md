@@ -23,6 +23,14 @@ The model is trained on the **LC25000 Dataset**, which contains labeled images o
 
 ---
 
+## 📊 Model Performance
+- Accuracy: **94%**
+- Training: 80% training set, 20% test set
+- Optimizer: Adam
+- Loss: Binary Crossentropy
+
+---
+
 ## Skills and Tools Used
 **Programming & Libraries:**  
 - Python  
@@ -58,7 +66,7 @@ The model is trained on the **LC25000 Dataset**, which contains labeled images o
 Provide a sample input histopathology image.  
 
 ```markdown
-![Input Image](inputs/sample_input.jpg)
+![Input Image]([https://github.com/kabikarthi23/Projects_/blob/main/Lung%20Cancer%20Detection/inputs/01.jpeg])
 ```
 ## Output Example
 
